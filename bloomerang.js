@@ -621,7 +621,11 @@ var insertForm56320 = function() {
 '  <h2>Processing...</h2><p>Your transaction is being processed. Please do not close your browser or leave this page.</p>' + 
 '</div>' + 
 '' + 
-'' +  '';var successHtml56320 = '\u003cscript\u003ewindow.location.replace(\'https://tickfreemv.org/success\')\u003c/script\u003e';( function($) {if (Bloomerang.useDonationId('56320')) { 
+'' +  '';var successHtml56320 = '<div class=\'donation-success\'>' +
+                                                       '  <h2>Thank You for Your Donation!</h2>' +
+                                                       '  <p>Your generous gift has been processed. We truly appreciate your continued support.</p>' + 
+                                                        '   ' + 
+                                                        '</div>';( function($) {if (Bloomerang.useDonationId('56320')) { 
                                 Bloomerang.useProcessor('12289', 'OnePay', 'pk_live_iZYXFefCkt380zu63aqUIo7y');
                             } else {
                                 html56320 = '<p style="color: red">Only one donation or event registration form can be used on each page.</p>';
