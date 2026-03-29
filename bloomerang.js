@@ -1,4 +1,4 @@
-    var insertForm56320 = function() {
+var insertForm56320 = function() {
         var html56320 = '<style text=\'text/css\'>' + 
 '.donation-form label{color: #404040;' + 
 '                display: block;}' + 
@@ -124,9 +124,26 @@
 '    <div class="errors hidden"></div>' + 
 '    <div class="section donation">' + 
 '      <h3>Donation</h3>' + 
-'      <div class="field text donation-amount required" >' + 
-'<label for="donation-amount"><span class="label">Amount</span><span class="required-star">*</span></label>' + 
-'<input id="donation-amount" name="donation-amount" class="currency minimum1 required" type="text" placeholder="$0.00"></input>' + 
+'      <div class="field radio 59392 required" >' + 
+'<label for="59392"><input id="59392" name="donation-level" class="required" type="radio" value="20.000000" maxlength="255"></input><span class="label">$20.00 - Your support is appreciated!</span></label>' + 
+'</div>' + 
+'<div class="field radio 59393 required" >' + 
+'<label for="59393"><input id="59393" name="donation-level" class="required" type="radio" value="50.000000" maxlength="255"></input><span class="label">$50.00 - Your support is appreciated!</span></label>' + 
+'</div>' + 
+'<div class="field radio 59394 required" >' + 
+'<label for="59394"><input id="59394" name="donation-level" class="required" type="radio" value="100.000000" maxlength="255"></input><span class="label">$100.00 - Your support is appreciated!</span></label>' + 
+'</div>' + 
+'<div class="field radio 59395 required" >' + 
+'<label for="59395"><input id="59395" name="donation-level" class="required" type="radio" value="250.000000" maxlength="255"></input><span class="label">$250.00 - Your support is appreciated!</span></label>' + 
+'</div>' + 
+'<div class="field radio 59396 required" >' + 
+'<label for="59396"><input id="59396" name="donation-level" class="required" type="radio" value="500.000000" maxlength="255"></input><span class="label">$500.00 - Your support is appreciated!</span></label>' + 
+'</div>' + 
+'<div class="field radio other-option required" >' + 
+'<label for="other-option"><input id="other-option" name="donation-level" class="required" type="radio" maxlength="255"></input><span class="label">Other</span></label>' + 
+'</div>' + 
+'<div class="field text other-amount" >' + 
+'<input id="other-amount" name="other-amount" class="otherAmount" type="text" placeholder="$0.00"></input>' + 
 '</div>' + 
 '' + 
 '</div>' + 
@@ -148,10 +165,6 @@
 '<option value="Yearly">Yearly</option>' + 
 '</select>' + 
 '</div>' + 
-'<div class="field date start-date required" style="display: none">' + 
-'<label for="start-date"><span class="label">Start Date</span><span class="required-star">*</span></label>' + 
-'<input id="start-date" name="start-date" class="validDate startDateVenmo required" type="date" placeholder="mm/dd/yyyy"></input>' + 
-'</div>' + 
 '' + 
 '</div>' + 
 '    ' + 
@@ -162,12 +175,8 @@
 '' + 
 '</div>' + 
 '    <div class="section fund">' + 
-'      <div class="field text fund required" >' + 
-'<label for="fund">My donation is for<span class="required-star">*</span></label>' + 
-'<select id="fund" name="fund" class="required"><option value=""></option>' + 
-'<option value="11">Program</option>' + 
-'<option value="12">Endowment</option>' + 
-'</select>' + 
+'      <div class="field  fund" style="display: none">' + 
+'<input id="fund" name="fund" value="11" maxlength="255"></input>' + 
 '</div>' + 
 '' + 
 '</div>' + 
@@ -612,11 +621,7 @@
 '  <h2>Processing...</h2><p>Your transaction is being processed. Please do not close your browser or leave this page.</p>' + 
 '</div>' + 
 '' + 
-'' +  '';var successHtml56320 = '<div class=\'donation-success\'>' +
-                                                       '  <h2>Thank You for Your Donation!</h2>' +
-                                                       '  <p>Your generous gift has been processed. We truly appreciate your continued support.</p>' + 
-                                                        '   ' + 
-                                                        '</div>';( function($) {if (Bloomerang.useDonationId('56320')) { 
+'' +  '';var successHtml56320 = '\u003cscript\u003ewindow.location.replace(\'https://tickfreemv.org/success\')\u003c/script\u003e';( function($) {if (Bloomerang.useDonationId('56320')) { 
                                 Bloomerang.useProcessor('12289', 'OnePay', 'pk_live_iZYXFefCkt380zu63aqUIo7y');
                             } else {
                                 html56320 = '<p style="color: red">Only one donation or event registration form can be used on each page.</p>';
@@ -1572,3 +1577,4 @@ Bloomerang.Data.PayPal.IsPayPalPaymentMethodVaultingEnabled = false;Bloomerang.D
                 };
 
                 startBloomerangLoad();
+</script></pre>
