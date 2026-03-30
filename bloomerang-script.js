@@ -1,4 +1,6 @@
-var insertForm56320 = function() {
+<script type="text/javascript" id="bloomerangForm56320"></script>
+<pre><script type="text/javascript">
+    var insertForm56320 = function() {
         var html56320 = '<style text=\'text/css\'>' + 
 '.donation-form label{color: #404040;' + 
 '                display: block;}' + 
@@ -106,42 +108,6 @@ var insertForm56320 = function() {
 '.donation-form .radio label.error{display: inline-block;' + 
 '                padding-right: 86%;  ' + 
 '                float: right;}' + 
-          '.donation-form label{' +
-'color:#404040;' +
-'display:block;' +
-'font-family:var(--_typography---font-styles--body);' +
-'}' +
-'input#recurring{' +
-'margin-right:5px;' +
-'}' +
-'input#true-impact{' +
-'margin-right:5px;' +
-'}' +
-'input{' +
-'font-family:var(--_typography---font-styles--body);' +
-'font-size:medium;' +
-'}' +
-'option{' +
-'font-family:var(--_typography---font-styles--body);' +
-'font-size:medium;' +
-'}' +
-'select#country{' +
-'font-family:var(--_typography---font-styles--body);' +
-'font-size:medium;' +
-'}' +
-'input#express-submit{' +
-'width:100%;' +
-'border:2px solid var(--clay);' +
-'background-color:transparent;' +
-'color:var(--clay);' +
-'text-transform:uppercase;' +
-'font-family:Montserrat, sans-serif;' +
-'font-weight:600;' +
-'}' +
-
-'label.error{' +
-'font-size:smaller;' +
-'}' +
 '' + 
 '.donation-form .hidden{display: none;}' + 
 '' + 
@@ -149,7 +115,7 @@ var insertForm56320 = function() {
 '' + 
 'iframe#spreedly-iframe[style=\'visibility: hidden;\']{display: none;}' + 
 '' + 
-'input, select, textarea, button{font-family: var(--_typography---font-styles--body);}' + 
+'input, select, textarea, button{font-family: inherit;}' + 
 '' + 
 '#spreedly-modal-overlay[style="visibility:hidden"]{display: none;}' + 
 '' + 
