@@ -1,6 +1,4 @@
-<script type="text/javascript" id="bloomerangForm56320"></script>
-<pre><script type="text/javascript">
-    var insertForm56320 = function() {
+var insertForm56320 = function() {
         var html56320 = '<style text=\'text/css\'>' + 
 '.donation-form label{color: #404040;' + 
 '                display: block;}' + 
@@ -125,7 +123,7 @@
 '  <form id="donation-form" class="donation-form" method="post" onsubmit="event.preventDefault(); collectPayment();">' + 
 '    <div class="errors hidden"></div>' + 
 '    <div class="section donation">' + 
-'      <h3>Donation</h3>' + 
+'      <h6>Choose Amount</h6>' + 
 '      <div class="field radio 59392 required" >' + 
 '<label for="59392"><input id="59392" name="donation-level" class="required" type="radio" value="20.000000" maxlength="255"></input><span class="label">$20.00 - Your support is appreciated!</span></label>' + 
 '</div>' + 
@@ -183,7 +181,7 @@
 '' + 
 '</div>' + 
 '    <div class="section contact">' + 
-'      <h3>Contact Information</h3>' + 
+'      <h6>Your Information</h6>' + 
 '      <div class="field text first-name required" >' + 
 '<label for="first-name"><span class="label">First Name</span><span class="required-star">*</span></label>' + 
 '<input id="first-name" name="first-name" class="required" type="text"></input>' + 
@@ -583,7 +581,7 @@
 '' + 
 '</div>' + 
 '    <div class="section payment">' + 
-'      <h3>Payment Information</h3>' + 
+'      <h6>Payment Information</h6>' + 
 '      <div class="field radio DebitCard required" >' + 
 '<label for="DebitCard"><input id="DebitCard" name="payment-type" class="required" type="radio" maxlength="255"></input><span class="label">Debit Card</span></label>' + 
 '</div>' + 
