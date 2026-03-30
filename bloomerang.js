@@ -1,4 +1,6 @@
-var insertForm56320 = function() {
+<script type="text/javascript" id="bloomerangForm56320"></script>
+<pre><script type="text/javascript">
+    var insertForm56320 = function() {
         var html56320 = '<style text=\'text/css\'>' + 
 '.donation-form label{color: #404040;' + 
 '                display: block;}' + 
