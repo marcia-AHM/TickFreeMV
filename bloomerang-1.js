@@ -1,14 +1,54 @@
 var insertForm56320 = function() {
         var html56320 = '<style text=\'text/css\'>' + 
-'.donation-form label{color: #404040;' + 
-'                display: block;}' + 
-'' + 
 '.donation-form label.error,' + 
 '                     .donation-form #card-errors{color: #900;}' + 
 '' + 
 '.donation-form label.error{display: block;' + 
 '                padding: 0 10px;}' + 
 '' + 
+'.donation-form label{' +
+'color:#404040;' +
+'display:block;' +
+'font-family:var(--_typography---font-styles--body);' +
+'}' +
+'' + 
+'input#recurring{' +
+'margin-right:5px;' +
+'}' +
+'' + 
+'input#true-impact{' +
+'margin-right:5px;' +
+'}' +
+'' + 
+'input{' +
+'font-family:var(--_typography---font-styles--body);' +
+'font-size:medium;' +
+'}' +
+'' + 
+'option{' +
+'font-family:var(--_typography---font-styles--body);' +
+'font-size:medium;' +
+'}' +
+'' + 
+'select#country{' +
+'font-family:var(--_typography---font-styles--body);' +
+'font-size:medium;' +
+'}' +
+'' + 
+'input#express-submit{' +
+'width:100%;' +
+'border:2px solid var(--clay);' +
+'background-color:transparent;' +
+'color:var(--clay);' +
+'text-transform:uppercase;' +
+'font-family:Montserrat, sans-serif;' +
+'font-weight:600;' +
+'}' +
+'' + 
+'label.error{' +
+'font-size:smaller;' +
+'}' +
+'' + 			
 '.donation-form section{padding: 5px;}' + 
 '' + 
 '.donation-form .field{padding: 4px 0;}' + 
@@ -123,21 +163,21 @@ var insertForm56320 = function() {
 '  <form id="donation-form" class="donation-form" method="post" onsubmit="event.preventDefault(); collectPayment();">' + 
 '    <div class="errors hidden"></div>' + 
 '    <div class="section donation">' + 
-'      <h6>Donation</h6>' + 
+'      <h6>Choose Amount</h6></br>' + 
 '      <div class="field radio 59392 required" >' + 
-'<label for="59392"><input id="59392" name="donation-level" class="required" type="radio" value="20.000000" maxlength="255"></input><span class="label">$20.00 - Your support is appreciated!</span></label>' + 
+'<label for="59392"><input id="59392" name="donation-level" class="required" type="radio" value="20.000000" maxlength="255"></input><span class="label">$20</span></label>' + 
 '</div>' + 
 '<div class="field radio 59393 required" >' + 
-'<label for="59393"><input id="59393" name="donation-level" class="required" type="radio" value="50.000000" maxlength="255"></input><span class="label">$50.00 - Your support is appreciated!</span></label>' + 
+'<label for="59393"><input id="59393" name="donation-level" class="required" type="radio" value="50.000000" maxlength="255"></input><span class="label">$50</span></label>' + 
 '</div>' + 
 '<div class="field radio 59394 required" >' + 
-'<label for="59394"><input id="59394" name="donation-level" class="required" type="radio" value="100.000000" maxlength="255"></input><span class="label">$100.00 - Your support is appreciated!</span></label>' + 
+'<label for="59394"><input id="59394" name="donation-level" class="required" type="radio" value="100.000000" maxlength="255"></input><span class="label">$100</span></label>' + 
 '</div>' + 
 '<div class="field radio 59395 required" >' + 
-'<label for="59395"><input id="59395" name="donation-level" class="required" type="radio" value="250.000000" maxlength="255"></input><span class="label">$250.00 - Your support is appreciated!</span></label>' + 
+'<label for="59395"><input id="59395" name="donation-level" class="required" type="radio" value="250.000000" maxlength="255"></input><span class="label">$250</span></label>' + 
 '</div>' + 
 '<div class="field radio 59396 required" >' + 
-'<label for="59396"><input id="59396" name="donation-level" class="required" type="radio" value="500.000000" maxlength="255"></input><span class="label">$500.00 - Your support is appreciated!</span></label>' + 
+'<label for="59396"><input id="59396" name="donation-level" class="required" type="radio" value="500.000000" maxlength="255"></input><span class="label">$500</span></label>' + 
 '</div>' + 
 '<div class="field radio other-option required" >' + 
 '<label for="other-option"><input id="other-option" name="donation-level" class="required" type="radio" maxlength="255"></input><span class="label">Other</span></label>' + 
@@ -1581,4 +1621,3 @@ Bloomerang.Data.PayPal.IsPayPalPaymentMethodVaultingEnabled = false;Bloomerang.D
                 };
 
                 startBloomerangLoad();
-</script></pre>
